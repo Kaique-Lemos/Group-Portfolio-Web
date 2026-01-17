@@ -116,7 +116,7 @@ O projeto teve como objetivo exercitar conceitos de desenvolvimento web front-en
 https://marlon-project.vercel.app/
 
   **Repositório**:
-    https://github.com/Crystian-Paz/MarlonProject/
+    https://github.com/Kaique-Lemos/Group-Portfolio-Web.git
 
 📩 **Postagem no LinkedIn**
 Fique atento! Em breve postaremos este projeto em nossas redes sociais!
