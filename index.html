@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="./Public/CSS/style.css">
+<link rel="stylesheet" href="./Public/CSS/dialog.css">
+
+<!-- FONTES GOOGLE-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- FIM FONTES GOOGLE-->
+
+<!-- ICONES BOOTSTRAP -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!-- FIM ICONES BOOTSTRAP -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Portfólio</title>
+</head>
+<body>
+    <header>
+        <nav> 
+            <a class="logo" href="./index.html">Membros</a>
+            <div class="mobile-menu"> 
+                <div class="brg1"></div>
+                <div class="brg2"></div>
+                <div class="brg3"></div>
+            </div> <!--mobile-menu-->
+            <ul class="nav-list">
+                <li><a href="./index.html">Membros</a></li>
+                <li><a href="./Views/galeria.html">Galeria</a></li>
+                <li><a href="./Views/cadastro.html">Cadastro</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo">
+                        <h1>SEJA BEM-VINDO<span>!</span></h1>
+                        <p>Boas vindas ao nosso site! Nessa página você pode encontrar uma breve descrição de nossas competências e abaixo você pode ver a nossa galeria com nossos interesses</p>
+                        <div class="btn-contato">
+                            <a href="./Views/galeria.html">
+                                <button>VEJA A GALERIA</button>
+                            </a>
+                        </div> <!--btn-contato-->
+                    </div><!--txt-topo-->                  
+                    <div class="img-topo">
+                        <img src="./img/Membros/logo.png" alt="vai ser outra coisa"> 
+                    </div><!-- img-topo -->
+                </div> <!--flex -->
+            </div> <!-- interface -->
+        </section> <!-- topo-do-site -->
+
+        <section class="quem-somos">
+            <div class="interface">
+                <h2 class="titulo">QUEM <span>SOMOS</span> NÓS?</h2>
+                <div class="flex">
+                    <div class="pessoas-box findoutmore" data-person="menezes">
+                        <img src="./img/Membros/Menezes.jpeg" alt="Menezes">
+                        <h3>GUILHERME <span>MENEZES</span></h3>
+                        <p>21 anos, desenvolvedor front-end iniciante, estudando há dois anos, com conhecimentos em HTML, CSS e JS.</p>
+                    </div>
+
+                    <div class="pessoas-box findoutmore" data-person="caua">
+                        <img src="./img/Membros/Cauã.png" alt="Cauã">
+                        <h3>CAUÃ <span>VERISSIMO</span></h3>
+                        <p>18 anos, desenvolvedor back-end focado em Java, cursando Engenharia da Computação.</p>
+                    </div>
+
+                    <div class="pessoas-box findoutmore" data-person="crystian">
+                        <img src="./img/Membros/Crystian.jpg" alt="Crystian">
+                        <h3>CRYSTIAN <span>DA PAZ</span></h3>
+                        <p>20 anos, desenvolvedor web Fullstack e tutor de desenvolvimento Web, com conhecimentos em várias tecnologias.</p>
+                    </div>
+
+                    <div class="pessoas-box findoutmore" data-person="kaique">
+                        <img src="./img/Membros/Kaique.jpeg" alt="Kaique">
+                        <h3>KAIQUE <span>LEMOS</span></h3>
+                        <p>22 anos, estudante de Engenharia da Computação focado em HTML e CSS.</p>
+                    </div>
+
+                    <div class="pessoas-box findoutmore" data-person="matheus">
+                        <img src="./img/Membros/Matheus.png" alt="Matheus">
+                        <h3>MATHEUS <span>HUSTENIR</span></h3>
+                        <p>22 anos, desenvolvedor back-end com conhecimentos em MySQL, Java e Python.</p>
+                    </div>
+
+                    <div class="pessoas-box findoutmore" data-person="bruno">
+                        <img src="./img/Membros/Bruno.png" alt="Bruno">
+                        <h3>BRUNO <span>NOGUEIRA</span></h3>
+                        <p>21 anos, estudante de Ciência da Computação.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>CONOSCO</span></h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Nome" required>
+                    <input type="text" name="" id="" placeholder="Seu E-Mail" required>
+                    <input type="text" name="" id="" placeholder="Escolhamos um">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="Enviar"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2 id="nome"></h2>
+            <div class="organization-modal">
+                <img src="../img/icons/Octicons-mark-github.svg" alt="">
+                <p id="github"></p>
+            </div>
+            <div class="organization-modal">
+                <img src="../img/icons/LinkedIn_icon.svg.png" alt="">
+                <p id="linkedin"></p>
+            </div>
+            <p id="curso"></p>
+        </div>
+    </div>
+    <script src="./Controller/NavBarController.js" defer></script>
+    <script src="./Controller/AboutUsController.js"></script>
+</body>
+</html>
